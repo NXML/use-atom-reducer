@@ -1,6 +1,6 @@
 {
   "name": "use-atom-reducer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "helper to use react reducer function with a recoil atom",
   "main": "index.js",
   "scripts": {
