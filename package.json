@@ -15,6 +15,7 @@
     "selector"
   ],
   "author": "nxml",
+  "repository": "github:nxml/use-atom-reducer",
   "license": "ISC",
   "dependencies": {
     "recoil": "^0.1.2"
