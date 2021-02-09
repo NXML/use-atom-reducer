@@ -1,0 +1,22 @@
+{
+  "name": "use-atom-reducer",
+  "version": "1.0.0",
+  "description": "helper to use react reducer function with a recoil atom",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "recoil",
+    "reducer",
+    "state",
+    "management",
+    "atom",
+    "selector"
+  ],
+  "author": "nxml",
+  "license": "ISC",
+  "dependencies": {
+    "recoil": "^0.1.2"
+  }
+}
