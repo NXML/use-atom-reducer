@@ -2,8 +2,14 @@
 ## Example
 ``` javascript
 import React from "react"
-import {counterState} from "./CounterAtom"
+import {atom} from "recoil"
 import {useAtomReducer} from "use-atom-reducer"
+
+
+export const counterState = atom({
+    key: 'counter', // unique ID (with respect to other atoms/selectors)
+    default: 0, // default value (aka initial value)
+  });
 
 
 
@@ -36,6 +42,30 @@ export default function Counter() {
     </div>
 
 }
+
+
+```
+
+# App
+```javascript
+
+import Counter from "./Counter"
+import { RecoilRoot } from "recoil"
+
+
+function App() {
+  return (
+    <div className="App">
+     
+        <RecoilRoot>
+          <Counter></Counter>
+          <Counter></Counter>
+        </RecoilRoot>
+
+    </div>
+  );
+}
+
 
 
 ```
